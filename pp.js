@@ -1,27 +1,4 @@
-/* ==========================================================
-   STUDENT ACTIVITY DASHBOARD — script.js
-   Vanilla JavaScript only. Works with the provided index.html.
 
-   HTML ids used:
-     themeToggle, themeIcon, themeLabel
-     totalCount, activeCount, inactiveCount
-     studentForm, studentName, studentId, studentDepartment,
-     studentStatus, formError
-     searchInput, studentList, emptyState, notification
-   HTML hooks used:
-     .filter-btn[data-filter="all|Active|Inactive"]
-
-   CLASS NAMES THIS SCRIPT ADDS (style them in style.css):
-     Dark mode        -> body.dark-mode  (and <html data-theme="dark">)
-     Student card     -> li.student-card
-                         .student-info  .student-name  .student-meta
-                         .status-badge  .badge-active / .badge-inactive
-                         .student-actions
-                         button.btn.btn-toggle  /  button.btn.btn-delete
-     Notification     -> #notification.notification.success | .error
-                         (hidden with the .hidden class)
-     Filter buttons   -> .active class + aria-pressed (already in HTML)
-   ========================================================== */
 
 "use strict";
 
