@@ -1,12 +1,4 @@
-/* ==========================================================
-   STUDENT ACTIVITY DASHBOARD — style.css
-   Written for the provided index.html and script.js.
-   Plain CSS: Grid + Flexbox layout, CSS variables for theming.
-   Dark mode is switched by script.js via body.dark-mode
-   (and <html data-theme="dark">).
-   ========================================================== */
 
-/* ---------- Theme variables ---------- */
 :root {
   --bg: #f1f5f9;
   --surface: #ffffff;
